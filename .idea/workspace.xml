@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="078136a2-d6b5-46ef-bfb3-50703cd662e8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xmbk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/absoluteme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/diary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/learn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/liuyan.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/absoluteme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/blogDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/diary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/editBlog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/learn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/liuyan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/cy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/erji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/friend.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/heiban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/post-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/post.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/qp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/qp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/rqp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/wl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/xx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/yonglan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/destorySession.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/postFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/quanxian.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/selectBlog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/selectBlogByuserId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/selectUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/update.php" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="xmbk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="473" column="18" lean-forward="true" selection-start-line="473" selection-start-column="18" selection-end-line="473" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learn.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/learn.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7365">
+              <caret line="712" column="18" lean-forward="true" selection-start-line="712" selection-start-column="18" selection-end-line="712" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/learn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selectUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/selectUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="763">
+              <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commom.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/commom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-398">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+              <folding>
+                <element signature="e#73#241#0" />
+                <element signature="e#287#540#0" />
+                <element signature="e#2039#2252#0" />
+                <element signature="e#2299#3508#0" />
+                <element signature="e#2316#2353#0" />
+                <element signature="e#2415#2455#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learn.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/learn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="170" column="11" lean-forward="true" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
+              <folding>
+                <element signature="e#470#702#0" />
+                <element signature="e#777#835#0" />
+                <element signature="e#907#967#0" />
+                <element signature="e#1074#2371#0" />
+                <element signature="e#2442#2563#0" />
+                <element signature="e#3389#4575#0" />
+                <element signature="e#4687#6886#0" />
+                <element signature="e#6951#7086#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Html5" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bigImage</find>
+      <find>middle</find>
+      <find>blog_title</find>
+      <find>blog_con_input</find>
+      <find>btn_fabiao</find>
+      <find>essay</find>
+      <find>on</find>
+      <find>left</find>
+      <find>login</find>
+      <find>btn_login</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/liuyan.html" />
+        <option value="$PROJECT_DIR$/html/diary.html" />
+        <option value="$PROJECT_DIR$/php/insertBlog.php" />
+        <option value="$PROJECT_DIR$/php/postFile.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/diary.css" />
+        <option value="$PROJECT_DIR$/html/absoluteme.html" />
+        <option value="$PROJECT_DIR$/css/absoluteme.css" />
+        <option value="$PROJECT_DIR$/css/liuyan.css" />
+        <option value="$PROJECT_DIR$/php/selectBlog.php" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/php/selectByuserId.php" />
+        <option value="$PROJECT_DIR$/data.html" />
+        <option value="$PROJECT_DIR$/php/selectBlogByuserId.php" />
+        <option value="$PROJECT_DIR$/php/connectvars.php" />
+        <option value="$PROJECT_DIR$/php/login.php" />
+        <option value="$PROJECT_DIR$/php/quanxian.php" />
+        <option value="$PROJECT_DIR$/html/editBlog.html" />
+        <option value="$PROJECT_DIR$/php/selectUser.php" />
+        <option value="$PROJECT_DIR$/php/delete.php" />
+        <option value="$PROJECT_DIR$/html/blogDetail.html" />
+        <option value="$PROJECT_DIR$/php/update.php" />
+        <option value="$PROJECT_DIR$/php/insert.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/php/destorySession.php" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/css/learn.css" />
+        <option value="$PROJECT_DIR$/html/learn.html" />
+        <option value="$PROJECT_DIR$/js/learn.js" />
+        <option value="$PROJECT_DIR$/js/commom.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1373" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xmbk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmbk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmbk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmbk" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmbk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmbk" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmbk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmbk" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Program Files (x86)/phpstudy/WWW/xmbk/css/index.css" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/eat" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\phpstudy\WWW\xmbk" />
+      <recent name="E:\html\xmbk\js" />
+      <recent name="E:\html\xmbk" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="078136a2-d6b5-46ef-bfb3-50703cd662e8" name="Default" comment="" />
+      <created>1532532845507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532532845507</updated>
+      <workItem from="1532532847091" duration="5429000" />
+      <workItem from="1532615965066" duration="8285000" />
+      <workItem from="1533298132930" duration="12117000" />
+      <workItem from="1533379876738" duration="3682000" />
+      <workItem from="1533397639708" duration="3507000" />
+      <workItem from="1533401381506" duration="8793000" />
+      <workItem from="1533466544628" duration="6478000" />
+      <workItem from="1533558266263" duration="2977000" />
+      <workItem from="1533565050847" duration="200000" />
+      <workItem from="1533565369282" duration="47871000" />
+      <workItem from="1533639234432" duration="17445000" />
+      <workItem from="1533729617729" duration="2509000" />
+      <workItem from="1533732460438" duration="19501000" />
+      <workItem from="1533754075470" duration="597000" />
+      <workItem from="1533782149650" duration="4347000" />
+      <workItem from="1533787341542" duration="1010000" />
+      <workItem from="1533797030556" duration="163000" />
+      <workItem from="1534072405059" duration="1230000" />
+      <workItem from="1534090409572" duration="946000" />
+      <workItem from="1534129066344" duration="14830000" />
+      <workItem from="1534167176795" duration="2081000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="164834000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1373" height="775" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12159175" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2494382" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url />
+          <line>92</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url />
+          <line>122</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url />
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url />
+          <line>3</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/learn.js</url>
+          <line>91</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/learn.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/commom.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/liuyan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/absoluteme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="214" column="11" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/absoluteme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="488" column="20" selection-start-line="488" selection-start-column="20" selection-end-line="488" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/learn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/liuyan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/absoluteme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="214" column="11" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/absoluteme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="188" column="37" selection-start-line="188" selection-start-column="37" selection-end-line="188" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/learn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/liuyan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/absoluteme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="214" column="11" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/absoluteme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/absoluteme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="284" column="1" selection-start-line="284" selection-start-column="1" selection-end-line="284" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/learn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/diary.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/diary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/liuyan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/absoluteme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="129" column="24" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/liuyan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/absoluteme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="311" column="45" selection-start-line="311" selection-start-column="45" selection-end-line="311" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.html" />
+    <entry file="file://$PROJECT_DIR$/php/connectvars.php" />
+    <entry file="file://$PROJECT_DIR$/html/editBlog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="500" column="18" lean-forward="true" selection-start-line="500" selection-start-column="17" selection-end-line="500" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/blogDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="293" column="39" selection-start-line="293" selection-start-column="39" selection-end-line="293" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/destorySession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login.php" />
+    <entry file="file://$PROJECT_DIR$/php/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/postFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/quanxian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/selectBlog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/selectBlogByuserId.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="473" column="18" lean-forward="true" selection-start-line="473" selection-start-column="18" selection-end-line="473" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7365">
+          <caret line="712" column="18" lean-forward="true" selection-start-line="712" selection-start-column="18" selection-end-line="712" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/selectUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/learn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="170" column="11" lean-forward="true" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
+          <folding>
+            <element signature="e#470#702#0" />
+            <element signature="e#777#835#0" />
+            <element signature="e#907#967#0" />
+            <element signature="e#1074#2371#0" />
+            <element signature="e#2442#2563#0" />
+            <element signature="e#3389#4575#0" />
+            <element signature="e#4687#6886#0" />
+            <element signature="e#6951#7086#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/commom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#73#241#0" />
+            <element signature="e#287#540#0" />
+            <element signature="e#2039#2252#0" />
+            <element signature="e#2299#3508#0" />
+            <element signature="e#2316#2353#0" />
+            <element signature="e#2415#2455#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

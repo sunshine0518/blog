@@ -1,0 +1,578 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clear{
+    clear:both;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+body,#container{
+    background:#a0cef2;
+    overflow-x:hidden;
+}
+#header{
+    height:120px;
+    width:90%;
+    margin:0 auto;
+    overflow:hidden;
+}
+#logo{
+    width:30%;
+    height:100%;
+    float:left;
+    margin-top:20px;
+}
+#logo img{
+    width:80px;
+    height:80px;
+    float:left;
+}
+#logo_saying{
+    float:left;
+    margin-top:15px;
+    font-size:14px;
+    color:#fff;
+    margin-left:2%;
+}
+#logo_saying p{
+    margin-top:10px;
+}
+#nav{
+    width:65%;
+    height:70px;
+    float:left;
+    margin-top:35px;
+    margin-left:5%;
+}
+#nav ul{
+    width:100%;
+}
+#nav ul li{
+    float:left;
+    border:1px solid #CEFC86;
+    margin-right:5%;
+    position:relative;
+    line-height:50px;
+    height:50px;
+    padding-left:16px;
+    padding-right:16px;
+    border-radius:8px;
+}
+#nav ul li span{
+    position:absolute;
+    background:#CEFC86;
+    z-index:-1;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+#nav ul li .border_left{
+    width:15px;
+    height:1px;
+    left:-70px;
+    top:-1px;
+    z-index:-1;
+}
+#nav ul li:hover .border_left{
+    left:-15px;
+    z-index:1;
+}
+#nav ul li .border_right{
+    width:15px;
+    height:1px;
+    right:-70px;
+    bottom:-1px;
+    z-index:-1;
+}
+#nav ul li:hover .border_right{
+    right:-15px;
+    z-index:1;
+}
+#nav ul li .border_top{
+    width:1px;
+    height:15px;
+    right:-1px;
+    top:-70px;
+    z-index:-1;
+}
+#nav ul li:hover .border_top{
+    top:-15px;
+    z-index:1;
+}
+#nav ul li .border_bottom{
+    width:1px;
+    height:15px;
+    left:-1px;
+    bottom:-70px;
+    z-index:-1;
+}
+#nav ul li:hover .border_bottom{
+    bottom:-15px;
+    z-index:1;
+}
+#nav ul li a{
+    color:#fff;
+    font-weight:bold;
+    font-family:"�����Ϲ����";
+}
+#nav ul li:hover{
+    background:#fff;
+    border-color:#CEFC86;
+}
+#nav ul li:hover a{
+    color:#60EFB8;
+}
+#main{
+    width:90%;
+    margin:10px auto;
+    height:auto;
+    //overflow:hidden;
+}
+.main_left{
+    width:60%;
+    float:left;
+    height:500px;
+}
+.main_left_title{
+    padding:10px 0px;
+    font-size:1em;
+    color:#fff;
+    border-bottom:2px solid #fff;
+}
+.zhuren{
+    width:100%;
+    height:auto;
+    margin:20px auto;
+}
+.zhuren>p{
+    color:#fff;
+    font-size:0.85em;
+}
+.jiyu_div{
+    margin-top:15px;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+.jiyu_l{
+    float:left;
+    width:34%;
+    background:#fff;
+    padding:5px;
+    margin-right:4%;
+}
+.jiyu_l img{
+    max-width:100%;
+    vertical-align:middle;
+}
+.jiyu_r{
+    float:right;
+    width:60%;
+}
+.jiyu_r p{
+    text-indent:2em;
+    font-size:0.85em;
+    line-height:2.5em;
+    color:#fff;
+}
+.liuyan_div{
+    width:100%;
+    margin-top:40px;
+    padding-bottom: 50px;
+}
+.liuyan_div>p{
+    color:#fff;
+    font-size:0.85em;
+}
+.liuyan_lists{
+    overflow:hidden;
+    margin-top:30px;
+}
+.liuyan_img{
+    float:left;
+    width:15%;
+}
+.liuyan_img img{
+    max-width:100%;
+    border:1px solid #fff;
+    border-radius:50%;
+}
+.liuyan_con{
+    float:right;
+    width:80%;
+    margin-left:5%;
+}
+.liuyan_name{
+    font-size:1em;
+    color:#fff;
+}
+.liuyan_text{
+    font-size:1em;
+    color:#fff;
+    line-height:2em;
+    margin-top:15px;
+}
+.liuyan_date{
+    font-size:0.85em;
+    color:#fff;
+    float:right;
+    margin-right:35%;
+    margin-top:15px;
+}
+.liuyan_input{
+    width:100%;
+    height:auto;
+}
+.liuyan_input textarea{
+    width:90%;
+    height:60px;
+    margin:10px auto;
+    resize:none;
+    padding:10px 25px;
+    border:1px solid #fff;
+    border-radius:10px;
+}
+.liuyan_input>p{
+    color:#fff;
+    font-size:0.85em;
+}
+.liuyan_input input[type="button"]{
+    width:100px;
+    height:30px;
+    outline:none;
+    border:none;
+    float:right;
+    margin-right:3%;
+    background:url("../image/post-btn.png");
+}
+.main_right{
+    width:30%;
+    height:auto;
+    float:right;
+    margin-left:5%;
+    background:yellow;
+}
+.main_right .search{
+    width:100%;
+    height:100px;
+    background:#fff;
+    text-align:center;
+}
+.main_right .search input{
+    width:70%;
+    height:40px;
+    color:#b7b6b5;
+    border-adius:8px;
+    border:1px solid #b7b6b5;
+    margin-top:20px;
+    padding-left:16px;
+    background:url("../image/search.png") no-repeat;
+    background-position:86% 10px;
+    outline:none;
+}
+.main_right  .article{
+    width:100%;
+    margin-top:20px;
+    height:auto;
+    background:#fff;
+}
+.main_right .article ul{
+    width:70%;
+    margin:0 auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.main_right .article ul li{
+    width:100%;
+    height:100px;
+    margin-bottom:10px;
+}
+.main_right  .article ul li .article_list{
+    float:left;
+    height:100%;
+    width:60%;
+}
+.main_right .article ul li .article_list .article_link{
+    background:url('../image/book.png') no-repeat 0 10px;
+    height:60px;
+    width:100%;
+    box-sizing:border-box;
+    padding-left:40px;
+    padding-top:10px;
+}
+.main_right .article ul li .article_list .article_link a{
+    font-size:20px;
+    font-weight:normal;
+    text-align:left;
+    color:#000;
+}
+.main_right  .article ul li .link{
+    width:100%;
+    height:40px;
+}
+.main_right .article ul li .like button{
+    border:none;
+    background:none;
+    width:20px;
+    height:20px;
+    position:relative;
+    top:0;
+    left:40px;
+}
+.main_right  .article ul li .like button img{
+    width:100%;
+    height:100%;
+}
+.main_right  .article ul li .like span{
+    color:#b7b6b5;
+    position:relative;
+    top:-20px;
+    left:30px;
+}
+.main_right  .article ul li .article_time{
+    float:left;
+    height:100%;
+    width:40%;
+    background:url("../image/wl.png");
+}
+.main_right  .article ul li .article_time .month{
+    height:30%;
+    opacity:0.4;
+    background:#000;
+    color:#fff;
+    text-align:center;
+    font-size:16px;
+}
+.main_right  .article ul li .article_time .date{
+    height:70%;
+    color:#fff;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
+.main_right  .category{
+    margin-top:20px;
+    background:#fff;
+    height:auto;
+}
+.main_right  .category ul{
+    width:70%;
+    margin:20px auto;
+}
+.main_right  .category ul li{
+    display:inline-block;
+    width:40%;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    border:1px solid transparent;
+    border-radius:8px;
+    margin:10px 10px 10px 0;
+}
+.main_right .category ul li a{
+    color:#fff;
+    font-weight:bold;
+    font-size:20px;
+    display:block;
+    width:100%;
+    height:100%;
+    transition:transform 1s,opacity 1s;
+    -moz-transition:transform 1s, -moz-opacity 1s;
+    -webkit-transition:transform 1s, opacity 1s;
+    -o-transition:transform 1s, opacity 1s;
+}
+.main_right  .category ul li a:hover{
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    opacity:0.4;
+    -moz-opacity:0.4;
+}
+
+@media screen and (max-width: 320px) {
+    #logo {
+        width: 25%;
+    }
+    #logo img {
+        width: 50px;
+        height: 50px;
+        margin-top:-5px;
+    }
+    #logo_saying {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    #nav {
+        margin-top: 10px;
+    }
+
+    #nav ul li {
+        line-height: 20px;
+        height: 20px;
+        padding: 2px 5px;
+        border-radius: 2px;
+        margin: 5px 8px;
+    }
+    #nav ul li a {
+        font-size: 12px;
+    }
+    .main_right{
+        display:none;
+    }
+    .main_left {
+        width: 100%;
+        height:auto;
+    }
+    .jiyu_l {
+        width: 96%;
+    }
+    .jiyu_r {
+        width: 96%;
+    }
+    .jiyu_r p {
+        font-size: 12px;
+    }
+    .liuyan_name {
+        font-size: 12px;
+    }
+    .liuyan_text {
+        font-size:12px;
+    }
+    .liuyan_date {
+        margin-right: 5%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:768px) {
+    #logo {
+        width: 30%;
+    }
+    #logo img {
+        margin-top: -12px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #logo_saying {
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    #nav {
+        width: 65%;
+        margin-top: 20px;
+    }
+
+    #nav ul li {
+        line-height: 25px;
+        height: 25px;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        border-radius: 0.5rem;
+        margin: 3px 1%;
+        width: 30%;
+    }
+
+    #nav ul li a {
+        font-size: 14px;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .main_right{
+        display:none;
+    }
+    .main_left{
+        width:96%;
+    }
+    .jiyu_l {
+         margin-right:0;
+    }
+    .jiyu_r p {
+        font-size: 12px;
+    }
+    .liuyan_div{
+        font-size:14px;
+    }
+    .liuyan_date{
+        margin-right:10%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .body_ceng {
+        padding-top: 10%;
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    #logo {
+        width: 30%;
+    }
+
+    #logo img {
+        width: 65px;
+        height: 65px;
+        margin-top: -6px;
+    }
+
+    #logo_saying {
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    #logo_saying p {
+        margin-top: 5px;
+    }
+
+    #nav {
+        width: 65%;
+    }
+
+    #nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #nav ul li {
+        line-height: 30px;
+        height: 30px;
+        padding: 3px 6px;
+        border-radius: 0.4rem;
+    }
+
+    #nav ul li a {
+        font-size: 16px;
+    }
+    .jiyu_l {
+         margin-right: 0;
+    }
+    .liuyan_div{
+        font-size:14px;
+    }
+    .liuyan_date{
+        margin-right:15%;
+    }
+    .main_right .search input{
+        font-size:12px;
+    }
+    .main_right .article ul li .article_list .article_link a{
+        font-size:14px;
+    }
+    .main_right .article ul li .like span {
+        left: 17px;
+    }
+    .main_right .article ul li .article_time {
+        height: 80%;
+    }
+    .main_right .article ul li .article_time .month {
+        font-size: 14px;
+    }
+    .main_right .article ul{
+        padding:10px 5px;
+    }
+}

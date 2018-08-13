@@ -1,0 +1,779 @@
+*{
+	margin:0;
+	padding:0;
+}
+.clear{
+	clear:both;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+body,#container{
+	background:#a0cef2;
+}
+#header{
+	height:120px;
+	width:90%;
+	margin:0 auto;
+	overflow:hidden;
+}
+#logo{
+	width:30%;
+	height:100%;
+	float:left;
+	margin-top:20px;
+}
+#logo img{
+	width:80px;
+	height:80px;
+	float:left;
+}
+#logo_saying{
+	float:left;
+	margin-top:15px;
+	font-size:14px;
+	color:#fff;
+	margin-left:2%;
+}
+#logo_saying p{
+	margin-top:10px;
+}
+#nav{
+	width:65%;
+	height:70px;
+	float:left;
+	margin-top:35px;
+	margin-left:5%;
+}
+#nav ul{
+	width:100%;
+}
+#nav ul li{
+	float:left;
+	border:1px solid #CEFC86;
+	margin-right:5%;
+	position:relative;
+	line-height:50px;
+	height:50px;
+	padding-left:16px;
+	padding-right:16px;
+	border-radius:8px;
+}
+#nav ul li span{
+	position:absolute;
+	background:#CEFC86;
+	z-index:-1;
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+}
+#nav ul li .border_left{
+	width:15px;
+	height:1px;
+	left:-70px;
+	top:-1px;
+	z-index:-1;
+}
+#nav ul li:hover .border_left{
+	left:-15px;
+	z-index:1;
+}
+#nav ul li .border_right{
+	width:15px;
+	height:1px;
+	right:-70px;
+	bottom:-1px;
+	z-index:-1;
+}
+#nav ul li:hover .border_right{
+	right:-15px;
+	z-index:1;
+}
+#nav ul li .border_top{
+	width:1px;
+	height:15px;
+	right:-1px;
+	top:-70px;
+	z-index:-1;
+}
+#nav ul li:hover .border_top{
+	top:-15px;
+	z-index:1;
+}
+#nav ul li .border_bottom{
+	width:1px;
+	height:15px;
+	left:-1px;
+	bottom:-70px;
+	z-index:-1;
+}
+#nav ul li:hover .border_bottom{
+	bottom:-15px;
+	z-index:1;
+}
+#nav ul li a{
+	color:#fff;
+	font-weight:bold;
+	font-family:"�����Ϲ����";
+}
+#nav ul li:hover{
+	background:#fff;
+	border-color:#CEFC86;
+}
+#nav ul li:hover a{
+	color:#60EFB8;
+}
+#main{
+	overflow:hidden;
+	padding-bottom:50px;
+}
+.aboutme{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:20px auto;
+}
+.aboutme .title{
+	width:100%;
+	height:60px;
+	font-size:20px;
+	font-weight:bold;
+	line-height:60px;
+	color:#81F83C;
+	padding-left:3%;
+}
+.aboutme .left{
+	float:left;
+	width:10%;
+	padding:0 5%;
+}
+.aboutme .left .image{
+	width:100%;
+}
+.aboutme .left .image img{
+	max-width:100%;
+	height:auto;
+	border-radius:50%;
+	border:1px solid #fff;
+}
+.aboutme .left .intr{
+	height:60px;
+	color:#fff;
+}
+.aboutme .left .intr .qm{
+	font-weight:bold;
+}
+.aboutme .left .intr .me{
+	position:relative;
+	left:5px;
+	top:8px;
+	font-size:12px;
+}
+.aboutme .right{
+	width:80%;
+	float:left;
+}
+.aboutme .right .des{
+	color:#fff;
+	padding:5px 15px;
+}
+.aboutme .right .des p{
+	font-size:14px;
+	line-height:35px;
+	text-indent:28px;
+}
+.mood{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:20px auto;
+}
+.mood .title{
+	width:100%;
+	height:60px;
+	font-size:20px;
+	font-weight:bold;
+	line-height:60px;
+	color:#F8B33C;
+	padding-left:92%;
+}
+.mood .left .poem{
+	margin-left:50px;
+	margin-top:20px;
+	width:25%;
+	color:#F1E91C;
+	float:left;
+}
+.mood .left .poem p{
+	font-size:14px;
+	line-height:40px;
+}
+.mood .left .poem p.caption{
+	position:relative;
+}
+.mood .middle{
+	width:41.5%;
+	height:300px;
+	float:left;
+}
+.mood .middle .bigImage{
+	width:100%;
+	height:300px;
+	position:relative;
+}
+.mood .middle .bigImage img{
+	position:absolute;
+	top:0;
+	left:0;
+	max-width:100%;
+	opacity:0;
+	transition:all 0.3s linear;
+}
+.mood .middle .smallImages{
+	width:100px;
+	height:50px;
+	float:left;
+}
+.mood .middle .smallImages li{
+	width:100px;
+	height:50px;
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:10px;
+}
+.mood .middle .smallImages li img{
+	width:100px;
+	height:50px;
+}
+.mood .middle #button{
+	position:absolute;
+	bottom:10px;
+	left:43%;
+	z-index:999;
+}
+.dotBanner{
+	cursor:pointer;
+	border:1px solid yellow;
+	width:10px;
+	height:10px;
+	background:#333;
+	margin-right:5px;
+	border-radius:50%;
+	float:left;
+	z-index:999;
+	opacity:1;
+}
+.mood .middle #button span.on{
+	background: orangered;
+}
+.mood .middle .bigImage a{
+	font-size:36px;
+	font-weight:bold;
+	width:40px;
+	height:40px;
+	color:#fff;
+	background-color: RGBA(0,0,0,0.3); 
+	text-decoration:none;
+	cursor:pointer;
+	text-align:center;
+	line-height:40px;
+}
+#main #prev{
+	position:absolute;
+	left:3%;
+	top:50%;
+	z-index:999;
+}
+#main #next{
+	position:absolute;
+	right:8%;
+	top:50%;
+	z-index:999;
+}
+.mood .right{
+	width:20%;
+	height:300px;
+	float:right;
+
+}
+.mood .right .right_saying{
+	width:230px;
+	height:300px;
+	background:url("../image/heiban.png") no-repeat 0 0;
+	background-size:230px 300px;
+	position:relative;
+}
+.mood .right .right_saying span:first-child{
+	text-align:center;
+	display:inline-block;
+	width:100%;
+	font-size:20px;
+	padding-top:20px;
+	color:#4684EE;
+}
+.mood .right .right_saying p{
+	position:relative;
+	top:20%;
+	left:20%;
+	color:#fff;
+	font-size:20px;
+	line-height:40px;
+	font-style:italic;
+}
+.mood .right .right_saying span:last-child{
+	position:absolute;
+	bottom:10%;
+	right:10%;
+	color:#4684EE;
+}
+.daily{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:20px auto;
+}
+.daily .daily_title{
+	width:100%;
+	height:60px;
+	font-size:20px;
+	font-weight:bold;
+	line-height:60px;
+	color:#B33CF8;
+	padding-left:3%;
+}
+.daily_con{
+	width:100%;
+	height:auto;
+}
+.daily_block{
+	width:20%;
+	height:250px;
+	float:left;
+	margin:20px 2.5%;
+	position:relative;
+	overflow:hidden;
+}
+.daily_block img{
+	width:100%;
+	height:250px;
+	transition:all 1s linear;	
+}
+.daily_block_ceng{
+	position:absolute;
+	width:300px;
+	height:250px;
+	top:0;
+	left:0;
+	background:rgba(35,182,182,0.4);
+	z-index:1;
+	display:none;	
+}
+.daily_block_ceng div{
+	position:absolute;
+	left:35px;
+	top:55px;
+	width:180px;
+	height:200px;
+}
+.daily_block_ceng p{
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+	color:#fff;
+}
+.daily_block:hover .daily_block_ceng{
+	display:block;
+}
+.daily_block:hover img{
+	transform: scale(0.8,0.8);
+	-webkit-transform: scale(0.8,0.8);
+}
+.contact{
+	width:100%;
+	height:auto;
+}
+.contact_title{
+	width:100%;
+	height:60px;
+	font-size:20px;
+	font-weight:bold;
+	line-height:60px;
+	color:#4E9A34;
+	padding-left:92%;
+}
+.contact_con{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.contact_block{
+	width:20%;
+	height:auto;
+	margin:0 2.5%;
+	background:yellow;
+	float:left;
+	background:#476A6F;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	padding:50px 0;
+}
+.contact_block img{
+
+}
+.contact_block:nth-child(2){
+	margin-left:15%;
+	margin-right:15%;
+}
+@media screen and (max-width: 320px) {
+	#logo {
+		width: 25%;
+	}
+	#logo img {
+		width: 50px;
+		height: 50px;
+		margin-top:-5px;
+	}
+	#logo_saying {
+		margin-top: 0;
+		font-size: 12px;
+	}
+	#nav {
+		margin-top: 10px;
+	}
+
+	#nav ul li {
+		line-height: 20px;
+		height: 20px;
+		padding: 2px 5px;
+		border-radius: 2px;
+		margin: 5px 8px;
+	}
+	#nav ul li a {
+		font-size: 12px;
+	}
+	.aboutme .left{
+		width:100%;
+	}
+	.aboutme .left .image {
+		width:40%;
+		margin:10px auto;
+	}
+	.aboutme .left .intr{
+		margin-left:25%;
+	}
+	.aboutme .right{
+		width:100%;
+	}
+	.aboutme .right .des{
+		width:90%;
+		padding:2% 5%;
+	}
+	.aboutme .right .des p{
+		line-height:24px;
+	}
+	.mood .title {
+		padding-left: 68%;
+	}
+	.mood .left{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.mood .left .poem{
+		width:100%;
+		line-height:24px;
+	}
+	.mood .middle{
+		width:90%;
+		padding:0 5%;
+	}
+	.mood .middle .bigImage {
+		height: auto;
+	}
+	.mood .middle #button{
+		left:80px;
+		top:120px;
+		width:200px;
+		height:40px;
+	}
+	.mood .middle {
+		height: 160px;
+	}
+	#main #prev,#main #next{
+		top:60px;
+	}
+	.mood .right {
+		display: none;
+	}
+	.daily_block{
+		width:92%;
+		height:150px;
+	}
+	.daily_block_ceng {
+		position: absolute;
+		width: 300px;
+		height: 180px;
+	}
+	.daily_block_ceng div  {
+		top:10px;
+	}
+	.daily_block_ceng div  p{
+		  font-size:12px;
+	}
+	.contact_title {
+		padding-left: 75%;
+	}
+	.contact_con{
+		width:100%;
+	}
+	.contact_block{
+		width:90%;
+		height:120px;
+		margin:15px 5%;
+	}
+	.contact_block:nth-child(2) {
+		 margin-left: 5%;
+		 margin-right: 0%;
+	}
+}
+@media screen and (min-width: 320px) and (max-width:768px) {
+	#logo {
+		width: 30%;
+	}
+
+	#logo img {
+		margin-top: -12px;
+		width: 60px;
+		height: 60px;
+	}
+
+	#logo_saying {
+		margin-top: 0;
+		font-size: 12px;
+	}
+
+	#nav {
+		width: 65%;
+		margin-top: 20px;
+	}
+
+	#nav ul li {
+		line-height: 25px;
+		height: 25px;
+		padding-left: 0.8rem;
+		padding-right: 0.8rem;
+		border-radius: 0.5rem;
+		margin: 3px 1%;
+		width: 30%;
+	}
+
+	#nav ul li a {
+		font-size: 14px;
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	.aboutme .left{
+		width:100%;
+	}
+	.aboutme .left .image {
+		width:40%;
+		margin:10px auto;
+	}
+	.aboutme .left .intr{
+		margin-left:40%;
+	}
+	.aboutme .right{
+		width:100%;
+	}
+	.aboutme .right .des{
+		width:90%;
+		padding:2% 5%;
+	}
+	.aboutme .right .des p{
+		line-height:24px;
+		font-size:14px;
+		text-indent:28px;
+	}
+	.mood .title {
+		padding-left: 78%;
+	}
+	.mood .left{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.mood .left .poem{
+		width:100%;
+		line-height:26px;
+		font-size:13px;
+	}
+	.mood .middle{
+		width:90%;
+		padding:0 5%;
+	}
+	.mood .middle .bigImage {
+		width:100%;
+		height: auto;
+	}
+	.mood .middle .bigImage img{
+		width:90%;
+		margin-left:5%;
+	}
+	.mood .middle #button{
+		left:40%;
+		top:150px;
+		width:200px;
+		height:40px;
+	}
+	.mood .middle {
+		height: 200px;
+	}
+	#main #prev,#main #next{
+		top:80px;
+	}
+	#main #prev{
+		left:5%;
+	}
+	#main #next{
+		right:5%;
+	}
+	.mood .right {
+		display: none;
+	}
+	.daily_block{
+		width:45%;
+		height:150px;
+	}
+	.daily_block_ceng div{
+		left:5%;
+		top:10%;
+	}
+	.daily_block_ceng div p{
+		font-size:13px;
+	}
+	.contact_title {
+		padding-left: 84%;
+	}
+	.contact_block{
+		width:45%;
+		height:120px;
+		margin:15px 2.5%;
+	}
+	.contact_block:nth-child(2) {
+		margin-left:2.5%;
+		margin-right:0%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+	.body_ceng {
+		padding-top: 10%;
+		line-height: 15px;
+		font-size: 12px;
+	}
+
+	#logo {
+		width: 30%;
+	}
+
+	#logo img {
+		width: 65px;
+		height: 65px;
+		margin-top: -6px;
+	}
+
+	#logo_saying {
+		margin-top: 0;
+		font-size: 12px;
+	}
+
+	#logo_saying p {
+		margin-top: 5px;
+	}
+
+	#nav {
+		width: 65%;
+	}
+
+	#nav ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	#nav ul li {
+		line-height: 30px;
+		height: 30px;
+		padding: 3px 6px;
+		border-radius: 0.4rem;
+	}
+
+	#nav ul li a {
+		font-size: 16px;
+	}
+	.aboutme .left .image {
+		padding:15%;
+	}
+	.aboutme .left .intr{
+		margin-left:15%;
+	}
+	.aboutme .right .des p{
+		font-size:14px;
+		line-height:24px;
+		text-indent:28px;
+	}
+	.mood .title {
+		 padding-left: 88%;
+	}
+	.mood .left{
+		width:27%;
+		float:left;
+	}
+	.mood .right{
+		float:left;
+		margin-left:3%;
+		width:28%;
+		height:230px;
+	}
+	.mood .right .right_saying {
+		width: 100%;
+		height: 100%;
+		background: url(../image/heiban.png) no-repeat 0 0;
+		background-size: 200px 230px;
+		position: relative;
+	}
+	.mood .right .right_saying p {
+		top: 15%;
+		left: 10%;
+	}
+	.mood .right .right_saying span:last-child {
+		right: 25%;
+		font-size:14px;
+	}
+	#main #prev,#main #next{
+		top:30%;
+	}
+	.mood .middle #button{
+		top:170px;
+		left:40%;
+	}
+	.mood .left .poem{
+		width:100%;
+	}
+	.mood .left .poem p{
+		font-size:14px;
+		line-height:35px;
+	}
+	.daily_block_ceng div{
+		left: 4%;
+		height:180px;
+	}
+	.daily_block_ceng div p{
+		font-size:14px;
+	}
+	.contact_block{
+		height:120px;
+	}
+}

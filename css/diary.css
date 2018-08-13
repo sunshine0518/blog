@@ -1,0 +1,381 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clear{
+    clear:both;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+body,#container{
+    background:#a0cef2;
+}
+#header{
+    height:120px;
+    width:90%;
+    margin:0 auto;
+    overflow:hidden;
+}
+#logo{
+    width:30%;
+    height:100%;
+    float:left;
+    margin-top:20px;
+}
+#logo img{
+    width:80px;
+    height:80px;
+    float:left;
+}
+#logo_saying{
+    float:left;
+    margin-top:15px;
+    font-size:14px;
+    color:#fff;
+    margin-left:2%;
+}
+#logo_saying p{
+    margin-top:10px;
+}
+#nav{
+    width:65%;
+    height:70px;
+    float:left;
+    margin-top:35px;
+    margin-left:5%;
+}
+#nav ul{
+    width:100%;
+}
+#nav ul li{
+    float:left;
+    border:1px solid #CEFC86;
+    margin-right:5%;
+    position:relative;
+    line-height:50px;
+    height:50px;
+    padding-left:16px;
+    padding-right:16px;
+    border-radius:8px;
+}
+#nav ul li span{
+    position:absolute;
+    background:#CEFC86;
+    z-index:-1;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+#nav ul li .border_left{
+    width:15px;
+    height:1px;
+    left:-70px;
+    top:-1px;
+    z-index:-1;
+}
+#nav ul li:hover .border_left{
+    left:-15px;
+    z-index:1;
+}
+#nav ul li .border_right{
+    width:15px;
+    height:1px;
+    right:-70px;
+    bottom:-1px;
+    z-index:-1;
+}
+#nav ul li:hover .border_right{
+    right:-15px;
+    z-index:1;
+}
+#nav ul li .border_top{
+    width:1px;
+    height:15px;
+    right:-1px;
+    top:-70px;
+    z-index:-1;
+}
+#nav ul li:hover .border_top{
+    top:-15px;
+    z-index:1;
+}
+#nav ul li .border_bottom{
+    width:1px;
+    height:15px;
+    left:-1px;
+    bottom:-70px;
+    z-index:-1;
+}
+#nav ul li:hover .border_bottom{
+    bottom:-15px;
+    z-index:1;
+}
+#nav ul li a{
+    color:#fff;
+    font-weight:bold;
+    font-family:"�����Ϲ����";
+}
+#nav ul li:hover{
+    background:#fff;
+    border-color:#CEFC86;
+}
+#nav ul li:hover a{
+    color:#60EFB8;
+}
+.middle_div{
+    width:90%;
+    margin:20px auto;
+    height:150px;
+    padding:10px 0px;
+}
+.middle_div_img{
+    width:6%;
+    margin:0 auto;
+}
+.middle_div_img img{
+    max-width:100%;
+}
+.middle_div_text{
+    color:#fff;
+    position:relative;
+}
+.middle_p{
+    font-size:2em;
+    font-style:italic;
+    position:absolute;
+    top:20px;
+    left:25%;
+    transition:all 1s linear;
+}
+.middle_bg{
+    position:absolute;
+    width:100%;
+    height:150px;
+    background:rgba(0,0,0,.1);
+    top:140px;
+    left:0px;
+}
+.main{
+    width:90%;
+    margin:0 auto;
+}
+.main_title{
+    height:20px;
+    font-size:1em;
+    padding:10px 0px;
+    border-bottom:2px solid #fff;
+    color:#fff;
+}
+.diary_div{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    margin-top:20px;
+}
+.diary_lists{
+    width:24%;
+    margin:1% 0.5%;
+    height:auto;
+    float:left;
+    box-sizing:border-box;
+    border:1px solid #fff;
+    border-radius:10px;
+    padding:15px;
+    color:#fff;
+}
+.diary_top{
+    overflow:hidden;
+}
+.diary_title{
+    float:left;
+    width:60%;
+    font-size:1em;
+    line-height:1.8em;
+}
+.diary_img{
+    float:right;
+    width:40%;
+}
+.diary_img img{
+    max-width:100%;
+}
+.diary_bottom{
+    margin-top:50px;
+}
+.diary_con{
+    text-indent: 2em;
+    font-size:0.85em;
+    line-height:2.5em;
+}
+@media screen and (max-width: 320px){
+    #logo{
+        width:30%;
+    }
+    #logo img{
+        width:50px;
+        height:50px;
+    }
+    #logo_saying {
+        margin-top:0;
+        font-size:12px;
+    }
+    #nav{
+        width:60%;
+        margin-left:1rem;
+        margin-top:10px;
+    }
+    #nav ul li{
+        line-height:20px;
+        height:20px;
+        padding:2px 5px;
+        border-radius:0.5rem;
+        margin:5px 8px;
+    }
+    #nav ul li a{
+        font-size:12px;
+    }
+    .middle_div_img {
+        width: 50px;
+    }
+    .middle_p {
+        font-size: 1em;
+    }
+    .diary_lists {
+        width: 98%;
+        margin:20px 0px;
+    }
+    .diary_bottom {
+        margin-top: 10px;
+    }
+    .diary_title {
+        float: left;
+        width: 60%;
+        font-size: 0.8em;
+        line-height: 1.6em;
+    }
+    .diary_con {
+        text-indent: 2em;
+        font-size: 0.8em;
+        line-height: 2em;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:768px) {
+    .body_ceng {
+        padding-top: 15%;
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    #logo {
+        width: 30%;
+    }
+
+    #logo img {
+        margin-top: -12px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #logo_saying {
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    #nav {
+        width: 65%;
+        margin-top: 20px;
+    }
+
+    #nav ul li {
+        line-height: 25px;
+        height: 25px;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        border-radius: 0.5rem;
+        margin: 3px 1%;
+        width: 30%;
+    }
+
+    #nav ul li a {
+        font-size: 0.85em;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        font-weight:lighter;
+    }
+    .middle_div_img {
+        width:60px;
+        height:60px;
+    }
+    .middle_p {
+        font-size: 1em;
+    }
+    .diary_lists{
+        width: 98%;
+        margin:20px 2%;
+    }
+    .diary_bottom {
+        margin-top: 30px;
+    }
+    .diary_title {
+        width:60%;
+        font-size: 0.85em;
+    }
+    .diary_img {
+        float: right;
+        width:100px;
+    }
+    .diary_con {
+        text-indent: 2em;
+        font-size: 0.85em;
+        line-height: 2em;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:992px) {
+    #logo {
+        width: 30%;
+    }
+    #logo img {
+        width: 65px;
+        height: 65px;
+        margin-top: -6px;
+    }
+    #logo_saying {
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    #logo_saying p {
+        margin-top: 5px;
+    }
+
+    #nav {
+        width: 65%;
+    }
+
+    #nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #nav ul li {
+        line-height: 30px;
+        height: 30px;
+        padding: 3px 6px;
+        border-radius:6px;
+    }
+
+    #nav ul li a {
+        font-size: 1rem;
+        width:100%;
+        height:100%;
+        display:inline-block;
+    }
+    .diary_lists {
+        width: 45%;
+        margin:20px 2%;
+    }
+}
