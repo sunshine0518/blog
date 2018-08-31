@@ -62,7 +62,6 @@ $(function () {
         });
     });
     $(".logout").click(function (){
-        alert(1);
         $.ajax({
             method:"get",
             url:"../../xmbk/php/destorySession.php",

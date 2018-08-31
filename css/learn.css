@@ -430,6 +430,7 @@ body,#container{
 }
 #bottom .left .essay .contents .caption h2{
 	margin:6px;
+	cursor: pointer;
 }
 #bottom .left .essay .contents .caption h2 a{
 	font-size:30px;
@@ -442,7 +443,9 @@ body,#container{
 #bottom .left .essay .contents .substance{
 	margin-top:5px;
 	padding:10px;
+	height: 190px;
 	box-sizing:border-box;
+	overflow:hidden;
 }
 #bottom .left .essay .contents .effect{
     -webkit-box-shadow:0px 0px 15px rgba(30,145,214,0.6) inset;

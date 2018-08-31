@@ -9,7 +9,7 @@ $(function (){
         		},time);
         		time+=1000;
         	},
-        	setStyle:function (className,styles,seconds){
+        	/*setStyle:function (className,styles,seconds){
         		var seconds=seconds;
         		for(var key in styles){
         			(function (key){
@@ -19,7 +19,7 @@ $(function (){
         				},time);
         			})(key);
         		}
-        	}
+        	}*/
         };
         var show = new Show();
         show.load("如果你有抱怨世界的不公平");
